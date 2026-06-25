@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+   
+    
+}
+
+body{
+    height: auto;
+    background: linear-gradient(to right,rgb(34, 215, 31),rgb(5, 87, 12));
+    background-image: url("imagem.png");
+    background-size: cover;      /* Preenche toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;/* Não repete */
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(255, 136, 0);
+}
+h2{
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(255, 136, 0);
+}
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 136, 0);
+}
+button{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(50, 171, 26);
+    color: rgb(255, 255, 255);
+}
+div.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 60px;
+}
+div.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 60px;
+}
+div.meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

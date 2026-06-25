@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clinica.css">
+    <link rel="icon" href=".ico" type="image/x-icon">
+    <title>PetVida Clínica</title>
+</head>
+<body>
+    
+    <form id="form">
+        <legend><h1>PetVida Clínica</h1></legend>
+        <br>
+        <h2>Formulário de Cadastro</h2>
+        <fieldset>
+            <label for="nome">Nome:
+            <input 
+                type="text"
+                id="nome" 
+                placeholder="Informe o nome do animal: "
+                name="nome"
+                class="caixa_entrada"
+                required>
+            </label> 
+        <br>
+        <label for="raca">Raça:
+            <input 
+                type="text"
+                placeholder="Informe a raça do animal: " 
+                name="raca" 
+             
+                id="raca"
+                class="caixa_entrada"
+                required>
+        </label>
+            <br>    
+        <label for="idade">Idade:
+            <input 
+                type="number"
+                placeholder="Informe a idade do animal: "
+                name="idade"
+                id="idade"
+                class="caixa_entrada"
+                required>
+        </label>
+        <br>
+        <label for="peso">Peso:
+            <input 
+                type="number"
+                placeholder="Informe o peso do animal: "
+                name="peso"
+                id="peso"
+                class="caixa_entrada"
+                required>
+        </label>
+        <br>
+        <div class="botoes">
+        <button type="submit" id="bnt_consultar">Cadastrar Pet</button>
+        <button type="button" onclick="listar()">Consultar Pets</button>
+        </div>
+    </fieldset>
+    <br>
+    <legend><h2>Ordem de Cadastros</h2></legend>
+    <div class="meio">
+    <fieldset id="resultado_espera">
+        <br>
+        <br>
+    </div>
+    </fieldset>
+<div class="buttons">
+    <button type="button" onclick="atender()">Atender Pet</button>
+    <button type="button" onclick="desistiu()">Desistiu</button>
+</div>
+</form>
+    <script src="clinica.js"></script>
+</body>
+</html> 
